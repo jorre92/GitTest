@@ -9,6 +9,7 @@ namespace EntityFrameworkonMac
         const String CloseApp = "close";
         const String AddPerson = "add";
         const String ShowDatabase = "list";
+        const String RemoveHuman = "rm";
 
         static void Main(string[] args)
         {
@@ -23,6 +24,7 @@ namespace EntityFrameworkonMac
                     Console.WriteLine(CloseApp + " - Exit program.");
                     Console.WriteLine(AddPerson + " - Add new human.");
                     Console.WriteLine(ShowDatabase + " - Show human register!");
+                    Console.WriteLine(RemoveHuman + " - Remove human from register");
 
                     String input = Console.ReadLine();
 
@@ -35,6 +37,9 @@ namespace EntityFrameworkonMac
                             break;
                         case ShowDatabase:
                             ShowDBContent(dbContext);
+                            break;
+                        case RemoveHuman:
+                            RemoveHumanFromDB(dbContext);
                             break;
                         default:
                             break;
@@ -80,5 +85,25 @@ namespace EntityFrameworkonMac
                 Console.WriteLine($"{h.SirName} {h.FirstName}, {h.BirthDay}.");
             }
         }
+    
+        public static void RemoveHumanFromDB( DatabaseContext ctxt)
+        {
+            Console.Write("Enter humans first name : ");
+            String firstName = Console.ReadLine();
+            Console.Write("Enter humans sir name :");
+            String sirName = Console.ReadLine();
+
+            var humansToRemove = from h in ctxt.Humans
+                                 where h.FirstName.Contains(firstName) && h.SirName.Contains(sirName)
+                                 select h;
+
+            foreach (Human h in humansToRemove)
+            {
+                ctxt.Humans.Remove(h);
+            }
+
+            ctxt.SaveChanges();
+        }
+    
     }
 }
