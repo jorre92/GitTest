@@ -16,6 +16,7 @@ namespace EntityFrameworkonMac
             
             using ( var dbContext = new DatabaseContext())
             {
+                dbContext.Database.EnsureDeleted();
                 dbContext.Database.EnsureCreated();
 
                 while(true)
@@ -50,7 +51,7 @@ namespace EntityFrameworkonMac
         }
 
 
-        public  static void AddPeronFunc(DatabaseContext ctxt)
+        public static void AddPeronFunc(DatabaseContext ctxt)
         {
             Console.Write("Enter humans first name : ");
             String firstName = Console.ReadLine();

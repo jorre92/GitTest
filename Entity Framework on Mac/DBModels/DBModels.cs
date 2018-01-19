@@ -26,5 +26,4 @@ namespace EntityFrameworkonMac
             optionsBuilder.UseSqlite("Data Source=HumanRegister.db");
         }
     }
-
 }
