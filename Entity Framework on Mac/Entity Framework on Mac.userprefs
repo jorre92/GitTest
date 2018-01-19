@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F04FDA2E-B615-4402-A551-3C5B60D891FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="4" Column="11" />
+      <File FileName="Models/DBStructures.cs" Line="31" Column="13" />
+      <File FileName="DBModels/DBModels.cs" Line="2" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Entity_220Framework_220on_220Mac PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

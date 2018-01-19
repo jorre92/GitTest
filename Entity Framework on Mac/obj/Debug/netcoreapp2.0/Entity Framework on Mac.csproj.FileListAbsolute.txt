@@ -1,0 +1,11 @@
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/bin/Debug/netcoreapp2.0/Entity Framework on Mac.deps.json
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/bin/Debug/netcoreapp2.0/Entity Framework on Mac.runtimeconfig.json
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/bin/Debug/netcoreapp2.0/Entity Framework on Mac.runtimeconfig.dev.json
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/bin/Debug/netcoreapp2.0/Entity Framework on Mac.dll
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/bin/Debug/netcoreapp2.0/Entity Framework on Mac.pdb
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.csprojResolveAssemblyReference.cache
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.csproj.CoreCompileInputs.cache
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.AssemblyInfoInputs.cache
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.AssemblyInfo.cs
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.dll
+/Users/johanneserikssonwallin/Documents/Git Reps/GitTest/Entity Framework on Mac/obj/Debug/netcoreapp2.0/Entity Framework on Mac.pdb

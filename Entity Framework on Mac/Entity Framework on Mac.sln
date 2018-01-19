@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity Framework on Mac", "Entity Framework on Mac.csproj", "{F04FDA2E-B615-4402-A551-3C5B60D891FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04FDA2E-B615-4402-A551-3C5B60D891FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04FDA2E-B615-4402-A551-3C5B60D891FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04FDA2E-B615-4402-A551-3C5B60D891FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04FDA2E-B615-4402-A551-3C5B60D891FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
